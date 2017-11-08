@@ -4,6 +4,7 @@ const driver = {
   age: '23'
 }
 
-function updateDriverWithKeyAndValue() {
-
+function updateDriverWithKeyAndValue(driver, 'name', 'jerry') {
+  const newDriver = ()
+  }
 }
