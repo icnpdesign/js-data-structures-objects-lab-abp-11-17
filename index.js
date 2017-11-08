@@ -3,7 +3,7 @@ const driver = {
   name : 'Sam',
 }
 
-function updateDriverWithKeyAndValue(driver, newDriver) {
+function updateDriverWithKeyAndValue() {
   const newDriver = {
 
   }
