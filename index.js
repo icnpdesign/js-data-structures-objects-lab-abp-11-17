@@ -5,5 +5,6 @@ const driver = {
 }
 
 function updateDriverWithKeyAndValue(driver, newDriver) {
-  delete driver.name;
+  const newDriver = driver;
+  delete newDriver.name;
 }
