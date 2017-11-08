@@ -1,11 +1,10 @@
 // Write your solution in this file!
 const driver = {
-  name : 'Ben',
-  
+  name : 'Sam',
 }
 
 function updateDriverWithKeyAndValue(driver, newDriver) {
   const newDriver = {
-    
+
   }
 }
