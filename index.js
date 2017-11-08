@@ -4,7 +4,11 @@ const driver = {
   age: '23'
 }
 
-function updateDriverWithKeyAndValue(driver, 'name', 'jerry') {
-  const newDriver = ()
+function updateDriverWithKeyAndValue(driver, newDriver) {
+  return Object.assign ({}, driver, newDriver);
+  }
+  const newDriver = {
+    name : 'jerry'
+    age : '31'
   }
 }
