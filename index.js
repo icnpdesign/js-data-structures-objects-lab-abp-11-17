@@ -3,9 +3,4 @@ const driver = {
   name : 'Bill',
 }
 
- // RIPPPPPPP TEST 2//
-
- function destructivelyUpdateDriverWithKeyAndValue() {
-  driver.name = 'Sam';
-  driver.address = '12 Broadway';
- }
+const newDriver = Object.assign ({}, driver, {name: 'Sam'});
