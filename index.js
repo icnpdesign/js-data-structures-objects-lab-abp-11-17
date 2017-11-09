@@ -3,8 +3,8 @@ const driver = {
   name : 'Bill',
 }
 
-function updatedriverWithKeyAndValue (oldDriver, updatedDriver) {
-  return Object.assign ({}, oldDriver, updatedDriver);
+function updatedriverWithKeyAndValue (driver, newDriver) {
+  return Object.assign ({}, driver, newDriver);
 
 }
 
