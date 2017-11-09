@@ -10,4 +10,5 @@ return newDriver;
 
 function destructivelyUpdateDriverWithKeyAndValue() {
   driver.address = '12 Broadway';
+  return driver
 }
