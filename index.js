@@ -3,4 +3,4 @@ const driver = {
   name : 'Bill',
 }
 
-const newDriver = Object.assign ({}, driver, {name: 'Sam'});
+const newDriver = Object.assign ({}, driver, {name: 'Sam'} {address: '11 Broadway'});
