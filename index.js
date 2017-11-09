@@ -9,5 +9,5 @@ return newDriver;
 }
 
 function destructivelyUpdateDriverWithKeyAndValue() {
-  driver.address : '12 Broadway';
+  driver.address = '12 Broadway';
 }
