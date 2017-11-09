@@ -22,7 +22,6 @@ function deleteFromDriverByKey() {
 function destructivelyDeleteFromdriverByKey () {
 
   driver.name = '';
-  return driver;
 }
 
 let newdriver = destructivelyDeleteFromdriverByKey (driver);
