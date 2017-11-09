@@ -1,10 +1,10 @@
 // Write your solution in this file!
 const driver = {
-  name : 'Sam',
+  name : 'Bill',
 }
 
 function updatedriverWithKeyAndValue (driver, newDriver) {
-  return Object.assign ( driver, newDriver);
+  return Object.assign ({}, driver, newDriver);
 
 }
 
