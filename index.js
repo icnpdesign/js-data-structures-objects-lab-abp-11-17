@@ -6,7 +6,7 @@ function updateDriverWithKeyAndValue(oldDriver, updatedDriver) {
   }
 
   const driver = {
-    name : 'Sam',
+    name : 'Bill',
   };
 
   const newDriver = {
