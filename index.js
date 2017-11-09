@@ -1,11 +1,13 @@
 // Write your solution in this file!
+const driver = {
+  name : 'Bill',
+}
+
 function updatedriverWithKeyAndValue (oldDriver, updatedDriver) {
   return Object.assign ({}, oldDriver, updatedDriver);
 
 }
-const driver = {
-  name : 'Bill',
-}
+
 
 
 const updatedDriver = updateDriverWithKeyAndValue(driver, 'address', '11 Broadway');
