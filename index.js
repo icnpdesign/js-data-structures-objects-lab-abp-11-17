@@ -14,6 +14,6 @@ function destructivelyUpdateDriverWithKeyAndValue() {
 }
 
 function deleteFromDriverByKey() {
-  const newDriver = Object.assign ({}, driver, {address: '11 Broadway'});
+  newDriver = delete driver.name;
   return newDriver;
 }
