@@ -3,9 +3,14 @@ const driver = {
   name : 'Sam',
 }
 
-function updatedriverWithKeyAndValue (driver) {
-  return Object.assign ({}, driver, {address: '11 Broadway'});
+function updatedriverWithKeyAndValue (driver, newDriver) {
+  return Object.assign ({}, driver, newDriver);
 
 }
 
-const newDriver = updatedriverWithKeyAndValue(driver);
+const newdriver = {
+  name : 'Sam',
+  address : '11 Broadway'
+}
+
+const updatedDriver = updatedriverWithKeyAndValue(driver);
