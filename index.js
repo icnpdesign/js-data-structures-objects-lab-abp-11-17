@@ -11,6 +11,6 @@ function updatedriverWithKeyAndValue (driver, newDriver) {
 const newDriver = {
   name : 'Sam',
   address : '11 Broadway'
-}
+};
 
 const updatedDriver = updatedriverWithKeyAndValue(driver, newDriver);
