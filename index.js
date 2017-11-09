@@ -8,7 +8,7 @@ function updatedriverWithKeyAndValue (oldDriver, updatedDriver) {
 
 }
 
-const newdriver = {
+const newDriver = {
   name : 'Sam',
   address : '11 Broadway'
 }
