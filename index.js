@@ -1,8 +1,6 @@
 // Write your solution in this file!
-
-
-function updatedriverWithKeyAndValue (driver, newDriver) {
-  return Object.assign ({}, driver, newDriver);
+function updatedriverWithKeyAndValue (oldDriver, updatedDriver) {
+  return Object.assign ({}, oldDriver, updatedDriver);
 
 }
 const driver = {
