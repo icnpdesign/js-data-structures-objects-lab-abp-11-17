@@ -14,4 +14,4 @@ function updateDriverWithKeyAndValue(oldDriver, updatedDriver) {
     address : '11 Broadway'
   };
 
-  const updatedDriverInfo = updateDriverWithKeyAndValue (driver, newDriver);
+  const updatedInfo = updateDriverWithKeyAndValue (driver, newDriver);
