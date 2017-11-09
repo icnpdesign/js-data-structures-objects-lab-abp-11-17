@@ -7,9 +7,6 @@ function updatedriverWithKeyAndValue (driver, newDriver) {
   return Object.assign ({}, driver, newDriver);
 
 }
-const driver = {
-  name : 'Sam',
-}
 
 const newdriver = {
   name : 'Sam',
