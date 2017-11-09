@@ -5,7 +5,7 @@ const driver = {
 
  // RIPPPPPPP TEST 2//
 
- function destructivelyUpdateDriverWithKeyAndValue(driver, name, 'Bill') {
+ function destructivelyUpdateDriverWithKeyAndValue() {
   driver.name = 'Sam';
-  driver.address = '12 Broadway'; 
+  driver.address = '12 Broadway';
  }
