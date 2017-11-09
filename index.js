@@ -12,4 +12,4 @@ const newDriver = {
   address : '11 Broadway'
 };
 
-const updatedDriver = updatedriverWithKeyAndValue(driver, newDriver);
+const updatedDriver = updateDriverWithKeyAndValue(driver, 'address', '11 Broadway');
