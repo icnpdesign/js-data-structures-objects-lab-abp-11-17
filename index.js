@@ -18,3 +18,8 @@ function deleteFromDriverByKey() {
   delete updatedDriver.name;
   return updatedDriver;
 }
+
+function destructivelyDeleteFromdriverByKey () {
+  delete driver.name;
+  return driver;
+}
