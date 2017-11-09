@@ -3,12 +3,6 @@ const driver = {
   name : 'Bill',
 }
 
-function updatedriverWithKeyAndValue (oldDriver, updatedDriver) {
-  return Object.assign ({}, oldDriver, updatedDriver);
-
-}
-
-const updatedDriver = updateDriverWithKeyAndValue(driver, 'address', '11 Broadway');
  // RIPPPPPPP TEST 2//
 
  function destructivelyUpdateDriverWithKeyAndValue(driver, name, 'Bill') {
