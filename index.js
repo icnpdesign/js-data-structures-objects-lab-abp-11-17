@@ -15,4 +15,3 @@ function updateDriverWithKeyAndValue(oldDriver, updatedDriver) {
   };
 
   const updatedDriverInfo = updateDriverWithKeyAndValue (driver, newDriver);
-  
